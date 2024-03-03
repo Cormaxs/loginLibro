@@ -6,7 +6,7 @@ body{
     background-color: #f3f3f4;
 }
 .container{
-     overflow: hidden;
+    overflow: hidden;
     font-family: "Roboto", sans-serif;
   font-style: normal;
     margin: 50px auto; height: 700px;
@@ -48,7 +48,7 @@ body{
 #email, #password{
     width: 95%;
     border: none; outline: none;
-     margin: 10px 0 10px 0; padding: 5px 0 5px 0;
+    margin: 10px 0 10px 0; padding: 5px 0 5px 0;
    text-align: left;
 }
 input::placeholder{
@@ -56,11 +56,12 @@ input::placeholder{
 }
 
 #forgot{
+    font-size: 12px;
     text-decoration: none;
     color: #4e75f8;
    display: inline-block;
    position: relative;
-   top: -32px; left:35%;
+   top: -33.5px; left:37%;
 }
 #logear{
     cursor: pointer;
@@ -74,7 +75,7 @@ input::placeholder{
     margin: 30px auto;
     display: flex;
    justify-content: space-between;
-    width: 90%;
+    width: 95%;
     font-size: small;
     color: #ffffff;
 }
@@ -84,4 +85,11 @@ input::placeholder{
     color: #ffffff;
 }
 
+#textoo{
+  margin-top: 3.5px;
+}
+#inputss{
+    display: flex;
+    align-items: center;
+}
 
