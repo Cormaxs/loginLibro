@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 body{
+    transition: font-size 0.5s ease; 
     background-color: #f3f3f4;
 }
 .container{
@@ -93,3 +94,16 @@ input::placeholder{
     align-items: center;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 500px){
+  
+    .container{
+    column-count: 1;
+   }
+
+   .foto{
+    display: none;
+   }
+   .log{
+    border-radius: 10px;
+   }
+}
